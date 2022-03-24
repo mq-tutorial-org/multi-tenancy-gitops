@@ -6,6 +6,7 @@ resources:
 - argocd/namespace-dev.yaml
 - argocd/namespace-staging.yaml
 - argocd/namespace-prod.yaml
+- argocd/namespace-rabbit-mq.yaml
 #- argocd/namespace-cloudpak.yaml
 #- argocd/namespace-istio-system.yaml
 #- argocd/namespace-openldap.yaml
@@ -22,6 +23,7 @@ resources:
 #- argocd/serviceaccounts-ibm-common-services.yaml
 #- argocd/serviceaccounts-tools.yaml
 #- argocd/serviceaccounts-db2.yaml
+- argocd/serviceaccounts-rabbit-mq.yaml
 #- argocd/serviceaccounts-mq.yaml
 #- argocd/scc-wkc-iis.yaml
 #- argocd/storage.yaml
